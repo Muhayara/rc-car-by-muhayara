@@ -11,7 +11,7 @@ Mobil RC berbasis ESP32 dengan kontrol via MQTT. Mendukung 4 mode kontrol:
 ## 📦 Hardware
 - ESP32
 - Motor Driver ZK-5AD
-- 2x Motor DC
+- 4x Motor DC
 
 ## 🔌 Wiring
 | ESP32 Pin | ZK-5AD | Fungsi |
@@ -23,7 +23,7 @@ Mobil RC berbasis ESP32 dengan kontrol via MQTT. Mendukung 4 mode kontrol:
 
 ## 📡 MQTT
 - **Broker:** `broker.hivemq.com`
-- **Topic:** `muhayara/rc/rc-car-controller/car`
+- **Topic:** `muhayara/rc/whatever-you-want`
 - **Perintah:** `F` maju · `B` mundur · `L` kiri · `R` kanan · `S` stop
 
 ---
